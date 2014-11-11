@@ -1,6 +1,6 @@
 #One Month Rails
 
 This is kadak sample application for
-[*One Month Rails*]
+One Month Rails
 
 by Ashlesh
