@@ -13,9 +13,9 @@ $brand-primary:										#2980b9;
 @import 'bootstrap';
 
 .jumbotron{
-	@media (max-width: 760px) {
-        height: 287px;
-      }
+	//@media (max-width: 760px) {
+      //  height: 287px;
+    //  }
 	background-image: url(http://www.gratisography.com/pictures/6_1.jpg);
 	text-align: center;
 	width: 48%;
@@ -24,6 +24,9 @@ $brand-primary:										#2980b9;
 	margin-right: auto;
 	background-color: #B7B7B7;
 	box-shadow: 10px 10px 5px #888888;
+	-webkit-column-count: 2 200px;
+     -moz-column-count: 2 200px;
+          column-count: 2 200px;
 	//position: absolute;
 	//position: relative;
 	//margin-left: 200px;
@@ -49,4 +52,12 @@ h1 {
 	width: 	240px;
 	//position: absolute;
 	display: inline-block;
+}
+.col-md-4 {
+	background-color: black;
+	color: white;
+	position: relative;
+	height: 40px;
+	//margin-left: 360px;
+
 }
