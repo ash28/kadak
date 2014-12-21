@@ -13,6 +13,9 @@ $brand-primary:										#2980b9;
 @import 'bootstrap';
 
 .jumbotron{
+	@media (max-width: 992px) {
+        height: 287px;
+      }
 	background-image: url(http://www.gratisography.com/pictures/6_1.jpg);
 	text-align: center;
 	width: 38em;
