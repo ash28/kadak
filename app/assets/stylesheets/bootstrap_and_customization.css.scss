@@ -8,11 +8,14 @@ $navbar-default-link-color: white;
 $navbar-default-brand-color: #f1c40f;
 $brand-primary:										#2980b9;
 //$jumbotron-bg: #2ecc71;
+
+//body-bg: url(http://picjumbo.com/wp-content/uploads/HNCK1748-1300x866.jpg);
 @import 'bootstrap';
 
 .jumbotron{
+	background-image: url(http://www.gratisography.com/pictures/6_1.jpg);
 	text-align: center;
-	width: 45em;
+	width: 38em;
 	height: 20em;
 	margin-left: auto;
 	margin-right: auto;
