@@ -9,6 +9,14 @@ $navbar-default-brand-color: #f1c40f;
 $brand-primary:										#2980b9;
 //$jumbotron-bg: #2ecc71;
 
+body {
+    background: url(http://picjumbo.com/wp-content/uploads/HNCK1748-1300x866.jpg) no-repeat center center fixed;
+    //background-color: #cccccc;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 //body-bg: url(http://picjumbo.com/wp-content/uploads/HNCK1748-1300x866.jpg);
 @import 'bootstrap';
 
@@ -47,7 +55,7 @@ h1 {
 	font-size: 3em;
 
 }
-.btn {
+#one {
 	background-color: #008000;
 	width: 	240px;
 	//position: absolute;
