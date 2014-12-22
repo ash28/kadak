@@ -1,16 +1,17 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
+
 $body-bg: #ecf0f1;
 $font-family-sans-serif:					'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-height:										 56px;
-$navbar-default-bg: #34495e;
+//$navbar-default-bg: black;
 $navbar-default-link-color: white;
 $navbar-default-brand-color: #f1c40f;
 $brand-primary:										#2980b9;
 //$jumbotron-bg: #2ecc71;
 
 body {
-    background: url(http://picjumbo.com/wp-content/uploads/HNCK1748-1300x866.jpg) no-repeat center center fixed;
+    background: url(https://unsplash.imgix.net/uploads/1412594480669535c9ef9/9d85c477?fit=crop&fm=jpg&h=1400&q=75&w=1050) no-repeat center center fixed;
     //background-color: #cccccc;
     -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -19,6 +20,10 @@ body {
 }
 //body-bg: url(http://picjumbo.com/wp-content/uploads/HNCK1748-1300x866.jpg);
 @import 'bootstrap';
+
+.navbar {
+	background-color: black;
+}
 
 .jumbotron{
 	//@media (max-width: 760px) {
@@ -45,9 +50,6 @@ body {
 	//background: transparent;
 }
 
-.navbar-brand{
-	font-weight: bold;
-}
 
 h1 {
 	text-align: center;
@@ -55,12 +57,14 @@ h1 {
 	font-size: 3em;
 
 }
+
 #one {
 	background-color: #008000;
 	width: 	240px;
 	//position: absolute;
 	display: inline-block;
 }
+
 .col-md-4 {
 	background-color: black;
 	color: white;
@@ -68,4 +72,54 @@ h1 {
 	height: 40px;
 	//margin-left: 360px;
 
+}
+
+.icon-menu {
+  color: blue;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  left: 25px;
+  top: -10px;
+  padding-bottom: 25px;
+  display: inline;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu {
+    background: #202024 url('http://41.media.tumblr.com/e5774aed338ee5afc8893a8b577d535d/tumblr_n9uxjicem81tbxd4lo1_1280.jpg') repeat left top;
+  left: -185px;  
+  height: 100%;
+  position: fixed;
+  width: 185px;
+  top: 0px;
+}
+.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+
+}
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-close {
+  position: relative;
+  left: 8px;
+  cursor: pointer;
+  width: 8px;
+  padding-top: 10px;
+  
 }
